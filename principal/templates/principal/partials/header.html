@@ -1,0 +1,15 @@
+{% load static %}
+
+<header id="header" class="max-width">
+    <div class="header__left">
+        <h1> Sou Brenda Beviláqua Desenvolvedora Back-End</h1>
+        <p>Bem vindo ao meu portifólio. Aqui você verá um pouco sobre mim, as tecnologias que trabalho, alguns projetos que desenvolvi e meus contatos </p>
+        <a href="https://wa.me/5585981270321?text=Oi%2C+peguei+seu+contato+no+seu+portif%C3%B3lio.+Poderia+me+ajudar%3F+" target="_blank" class="btn btn-primary">Fale Comigo!</a>
+        <a href="{% static 'cv.pdf' %}" target="_blank" class="btn btn-primary">DOWNLOAD CV</a>
+    </div>
+    <div class="header__right">
+        <div class="header__image">
+            <img src="{% static 'img/brenda4.jpg' %}" alt="Brenda Beviláqua" class="brenda">           
+        </div>
+    </div>
+</header>

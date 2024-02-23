@@ -1,0 +1,202 @@
+{% extends 'global/base.html' %}
+{% load static %}
+
+{% block content %}
+
+{# About #}
+<section id="about" class="about max-width">
+    <div class="about__left">
+        <h2 class="secondary-title">Além do codigo: quem sou eu?</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis error fuga, aliquid libero, iusto cupiditate repellat esse, quibusdam reiciendis ratione eum. Cum,
+             sint nam fugiat cumque perferendis magni exercitationem aliquam!</p>
+    <ul>
+        <li><a href="#"><img src="{% static 'img/github.png'%}" alt="Github"></a></li>
+        <li><a href="#"><img src="{% static 'img/github.png'%}" alt="Linkedin"></a></li>
+        <li><a href="#"><img src="{% static 'img/github.png'%}" alt="Instagram"></a></li>
+    </ul>
+    
+    </div>
+    <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+            Desenvolvedora backend apaixonada por soluções criativas
+        </h3>
+        <p>
+            Olá, eu sou Lucas Silva, um desenvolvedor fullstack apaixonado por
+            tecnologia e soluções criativas. Com mais de 3 anos de experiência em
+            desenvolvimento web, tenho trabalhado com diversas tecnologias e
+            plataformas para criar soluções robustas e escaláveis que atendam às
+            necessidades dos clientes. 
+        </p>
+        <p>
+            Eu amo o desafio de encontrar soluções inovadoras e criativas para
+          problemas complexos e estou sempre buscando aprender e crescer como
+          profissional.
+        </p> 
+        </p>
+    </div>
+</section>
+
+{# Skills #}
+<section id="skills" class="skills">
+    <div class="skills__content max-width">
+        <h2 class="tertiary-title">Tecnologias que trabalho!</h2>
+        <p class="description">
+          Aqui estão as tecnologias que possuio conhecimento mais avançado em relação a outras que estudo.
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\python_skill.png' %}" alt="python">
+            </div>
+            <h3>Python</h3> 
+          </li> 
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\django.png' %}" alt="django">
+            </div>
+            <h3>Django</h3>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\mysqlsem.png' %}" alt="mysql">
+            </div>
+            <h3>MySQL</h3>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\postgresql.jpg' %}" alt="postgresql">
+            </div>
+            <h3>PostgreSQL</h3>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\sql serversem.png' %}" alt="sql_server">
+            </div>
+            <h3>SQL Server</h3>
+          </li>
+        </li>
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\git.png' %}" alt="git">
+            </div>
+            <h3>Git</h3>
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\css.png' %}" alt="css">
+            </div>
+            <h3>CSS</h3>
+          </li> 
+          <li class="skills__item">
+            <div class="image-container">
+                <img src="{% static 'img\html.png' %}" alt="html">
+            </div>
+            <h3>HTML</h3>
+          </li> 
+        </ul>
+    </div>
+</section>
+
+{# Projects #}
+<section id="projects" class="projects">
+    <div class="projects_main max-width">
+        <div class="projects__content">
+            <h2 class="secondary-title">Projetos em Destaques</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta iusto enim ipsum error vitae facilis obcaecati, earum nemo? Officiis impedit iure architecto consectetur ipsam quos, et voluptas voluptatem harum facere.</p>
+        </div>
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="{% static 'img\task-manager.png'%}" alt="">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Sistema de Gerenciamento de tarefa
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi asperiores sunt aliquam deserunt,
+                        a, rem eos, quidem nulla ipsam animi atque pariatur id commodi ab voluptatum expedita.
+                        Nam, tempore impedit!
+                    </p>
+                    <div class="techs">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                    </div>
+                    <div class="links">
+                        <a href="#">Repositorio GitHub</a>
+                        <a href="#">Site no ar</a>
+                    </div>
+                </div>
+            </li>
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="{% static 'img\task-manager.png'%}" alt="">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Sistema de Gerenciamento de tarefa
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi asperiores sunt aliquam deserunt,
+                        a, rem eos, quidem nulla ipsam animi atque pariatur id commodi ab voluptatum expedita.
+                        Nam, tempore impedit!
+                    </p>
+                    <div class="techs">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                    </div>
+                    <div class="links">
+                        <a href="#">Repositorio GitHub</a>
+                        <a href="#">Site no ar</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="{% static 'img\task-manager.png'%}" alt="">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Sistema de Gerenciamento de tarefa
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi asperiores sunt aliquam deserunt,
+                        a, rem eos, quidem nulla ipsam animi atque pariatur id commodi ab voluptatum expedita.
+                        Nam, tempore impedit!
+                    </p>
+                    <div class="techs">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                        <img src="{% static 'img/python.png' %}" alt="python">
+                    </div>
+                    <div class="links">
+                        <a href="#">Repositorio GitHub</a>
+                        <a href="#">Site no ar</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+{# Contact #}
+<footer id="footer">
+    <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">{{contact.title}}</h2>
+        <p class="mb-m">{{contact.short_description}}</p>
+        <div class="footer__contact mb-m">
+            <span class="mb-m"><i class="fa-solid fa-envelope "></i> {{contact.email}}</span>
+            <span class="mb-m"><i class="fa-solid fa-square-phone"></i></i> {{contact.telephone}}</span>
+        </div>
+        <ul class="mb-l">
+            <li><a href="https://www.linkedin.com/in/brenda-bevil%C3%A1qua/" target="_blank"><i class="fa-brands fa-linkedin fa-xx"></i>/brenda-beviláqua</li></a>
+            <li><a href="https://github.com/BrendaBevilaqua13" target="_blank"><i class="fa-brands fa-github fa-xx"></i></i>/BrendaBevilaqua13</li></a>
+        
+        </ul>
+        <p class="footer__copyright">
+            @2023 Brenda Beviláqua. Todos os direitos reservados.
+        </p>
+    </div>
+</footer>
+
+{% endblock %}

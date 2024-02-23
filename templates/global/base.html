@@ -1,0 +1,14 @@
+{% include 'principal/partials/head.html' %}
+{% load static %}
+
+<html lang="pt-BR">
+<head>
+    <title>{% block title %}Portifólio{% endblock %} </title>
+</head>
+<body>
+    {% include 'principal/partials/navbar.html' %}
+    {% include 'principal/partials/header.html'%}
+    {% block content %} {% endblock %}
+    <script src="{% static 'js/menu.js' %}"></script>
+</body>
+</html>
